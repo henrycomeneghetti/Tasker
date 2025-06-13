@@ -2,6 +2,7 @@ import flet as ft
 import sqlite3
 import asyncio
 
+
 class ToDo:
     def __init__(self, page: ft.Page):
         self.page = page
@@ -29,7 +30,7 @@ class ToDo:
         asyncio.run(self.intro_screen())
 
     def db_execute(self, query, params=[]):
-        with sqlite3.connect('database.db') as con:
+        with sqlite3.connect('database/database.db') as con:
             cur = con.cursor()
             cur.execute(query, params)
             con.commit()
@@ -39,7 +40,7 @@ class ToDo:
         return True
 
     async def intro_screen(self):
-        welcome_image = ft.Image(src=r'C:\Users\hmq48\OneDrive\Área de Trabalho\TCC\logo.png', width=300, height=200)
+        welcome_image = ft.Image(src=r"img/logo.ico", width=300, height=200)
 
         intro_container = ft.Container(
             bgcolor="#121212",
