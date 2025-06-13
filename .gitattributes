@@ -1,0 +1,4 @@
+*.html linguist-detectable=false
+*.tex linguist-detectable=false
+/build/** linguist-detectable=false
+/img/** linguist-detectable=false
