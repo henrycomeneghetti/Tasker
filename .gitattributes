@@ -2,3 +2,5 @@
 *.tex linguist-detectable=false
 /build/** linguist-detectable=false
 /img/** linguist-detectable=false
+*.exe linguist-detectable=false
+*.spec linguist-detectable=false
