@@ -4,7 +4,7 @@ Tasker - Gerenciando seu tempo de forma eficiente.
 
 **Tasker** é um gerenciador de tarefas simples e direto, desenvolvido em Python com interface gráfica. Foi pensado para ajudar usuários a organizarem melhor sua rotina diária.
 
-**Atenção, se for adicionar o tasker na área de trabalho ou em qualquer outra pasta, criar um atalho.**
+
 
 ## Funcionalidades
 - Adicionar, editar e excluir tarefas
@@ -13,8 +13,9 @@ Tasker - Gerenciando seu tempo de forma eficiente.
 
 ##  Executável (.exe)
 O aplicativo está disponível em formato `.exe`, pronto para rodar no Windows.  
-> Não é necessário ter Python instalado para rodar, pois o executável já vem empacotado.
-> Para rodar o aplicativo basta executar o "Tasker.exe".
+- Não é necessário ter Python instalado para rodar, pois o executável já vem empacotado.
+- Para rodar o aplicativo basta clonar o repositóvrio, extrair os arquivos e executar o "Tasker.exe".
+- **Atenção, se for adicionar o "Tasker.exe" na área de trabalho ou em qualquer outra pasta, criar um atalho.**
 
 
 ## Captura de Tela
